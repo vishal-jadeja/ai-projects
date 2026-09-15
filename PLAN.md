@@ -4,6 +4,8 @@ Build in order — each project layers on the previous. Theory prerequisite list
 
 Definition of shipped: working code + README (problem, trade-offs, failure modes handled, metrics) + demo script or recording + entry in `learn/interview/project-narratives.md`.
 
+**Stack (decision Sep 2026):** Python + FastAPI + pydantic — prerequisite: `python-ai/` stages 1–3. From project #1 onward: containerized (Docker), CI with evals as a merge gate (`cloud-devops/` stages 2–3); project #2 deploys to AWS (`cloud-devops/` stage 4).
+
 ## 1. Structured Output Agent `P0`
 
 *Theory: applied-ai stage 2.*
